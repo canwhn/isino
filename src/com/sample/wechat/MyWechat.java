@@ -336,8 +336,9 @@ public class MyWechat extends WechatSupport {
 
 	@Override
 	protected void onShortVideo() {
-		// TODO Auto-generated method stub
-		
+		String result = "onShortVideo:";
+		logger.info(result);
+		responseText(result);
 	}
 
 	@Override
